@@ -8,25 +8,26 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
     <div class="navbar">
-        <a href="index.html">Home</a>
-        <a href="compare.html">News</a>
-        <a href="data.html">Home</a>
-        <div class="dropdown">
-          <button class="dropbtn">Dropdown 
-            <i class="fa fa-caret-down"></i>
-          </button>
-          <div class="dropdown-content">
+        <a class="topnav-left" href="index.html">Latitude vs. X</a>
+        <div class="dropdown topnav-right">
+          <button onclick="myFunction()" class="dropbtn">Plots</button>
+          <div id="myDropdown" class="dropdown-content">
             <a href="Cloudiness.html">Cloudiness</a>
             <a href="Wind.html">Wind Speed</a>
             <a href="Max_temp.html">Maximum Temperature</a>
             <a href="Humidity.html">Humidity</a>
           </div>
         </div> 
+        <a class="topnav-right" href="compare.html">Comparison</a>
+        <a class="topnav-right" href="data.html">Data</a>
     </div>
 
     <div class="container">
